@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="募資.css">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <title>募資</title>
+</head>
+<body>
+  <div class="title d-flex justify-content-between">
+    <ul class="titleup d-flex">
+      <li><a href="index.html">買多多</a></li>
+      <li><a href="關於買多多.html">關於買多多</a></li>
+      <li><a href="">探索</a></li>
+      <li><a href="提案.html">提案</a></li>
+      </ul>
+    <ul class="titlelogin">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">登入/註冊
+      </button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">登入/註冊</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        帳號<input type="text"><br>
+        密碼<input type="password">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary">送出</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+    </ul>
+  </div>
+  <div class="wrap d-flex justify-content-between">
+    <ul class="d-flex">
+      <li>
+        <img src="https://cw1.tw/CH/images/channel_master/2ccdb959-d4a1-48d7-b0fd-9d6cc9e71be5.jpg" alt="gym" loading="lazy">
+      </li>
+      <li>
+        <p>群眾募資/運動</p>
+        <h1>kit gym縮小版健身房</h1>
+        <p>kit gym可讓您在居家運動，五合一的功能因有盡有，不到三十分之一的價格把健康帶給全家</p>
+        <p>NT$56155</p>
+        <p>目標NT$100000</p>
+        <p id="people"><button @click="count++"> 點按次數:{{content}}</button>贊助人數{{people}}</p>
+        <p id="time">剩餘時間{{count}}天</p>
+        <p>時間2023/05/04 20:00 – 2023/06/15 00:00</p>
+      </li>
+    </ul>
+  </div>
+  <div class="header d-flex justify-content-between">
+    <ul class="d-flex">
+      <li><a href="募資.html">專案內容</a></li>
+      <li>專案更新1</li>
+      <li>常見問答21</li>
+      <li>留言12</li>
+      <li><a href="#top">風險與挑戰</a></li>
+      <li><a href="#second">退換貨規則</a></li>
+      <li><a href="#third">客服聯絡方式</a></li>
+    </ul>
+  </div>
+  <div class="content">
+    <ul class="list d-flex justify-content-between">
+      <li><img src="https://shoplineimg.com/5b12909c9a76f0193900103e/61aecd5abd064c0023a8c2b5/800x.webp?source_format=jpg" alt="sport" loading="lazy">
+        <p>「小小一台居然可以做多達100種以上訓練動作！
+          除了皮拉提斯動作以外連伸展、有氧、肌力、核心通通可以訓練到」</p>
+        <p>這就是您選擇kit gym的最好理由</p>
+        <img src="https://shoplineimg.com/5b12909c9a76f0193900103e/609cd0471e4215002f8c23de/800x.webp?source_format=jpg" alt="reason" loading="lazy"><br>
+        <img src="https://shoplineimg.com/5b12909c9a76f0193900103e/6260f2297cefda00154fe462/800x.webp?source_format=jpg" alt="reason2" loading="lazy">
+      </li>
+      <li>
+        <div class="contentwo">
+        <ul>
+          <li><img src="https://pic.616pic.com/ys_bnew_img/00/12/18/0VGJBreH3W.jpg" alt="fiftycount" loading="lazy">
+            <p>品牌特談方案<br>
+              NT$ 7,999<br>
+              5 折<br>
+              預定售價 NT$ 15,800 ，現省 NT$ 7,801<br>
+
+              剩餘 25 份已被贊助 575 / 600 次<br>
+              💪KIT GYM 核心肌 主套組 x1<br>
+              單組內容物包含 :<br>
+              - 減震墊<br>
+              - 手把一組(2個)<br>
+              - 手板一組(4個)<br>
+              - 藍色阻力管帶一組(2個)<br>
+              - 帶手柄紫管帶一組(2個)<br>
+
+              💡 溫馨提醒<br>
+              ▸台灣 (本島) 免運費<br>
+              ▸ 其他地區恕不寄送<br>
+              ▸ 如需統編請於備註欄填寫</p><br>
+          </li>
+          <li><img src="https://img95.699pic.com/xsj/0p/i2/9b.jpg!/fh/300" alt="sixtyfivecount" loading="lazy">
+            <p>NT$ 8,900<br>
+              剩餘 41 份已被贊助 9 / 50 次<br>
+              【單人獨享】超超早鳥 56 折<br>
+              〔未來市價 $15,800，現省 $6900〕<br>
+
+              💪KIT GYM 核心肌 主套組 x1<br>
+              單組內容物包含 :<br>
+              - 減震墊<br>
+              - 手把一組(2個)<br>
+              - 手板一組(4個)<br>
+              - 藍色阻力管帶一組(2個)<br>
+              - 帶手柄紫管帶一組(2個)<br>
+
+              💡 溫馨提醒<br>
+              ▸ 台灣 (本島) 免運費<br>
+              ▸ 其他地區恕不寄送<br>
+              ▸如需統編請於備註欄填寫</p><br>
+          </li>
+          <li><img src="https://img95.699pic.com/xsj/0h/8q/dj.jpg!/fh/300" alt="fiftycounttwo" loading="lazy">
+            <p>品牌特談雙入方案<br>
+              NT$ 15,800<br>
+              5 折<br>
+              預定售價 NT$ 31,600 ，現省 NT$ 15,800<br>
+
+              已被贊助 8 次<br>
+              💪KIT GYM 核心肌 主套組 x2<br>
+              單組內容物包含 :<br>
+              - 減震墊<br>
+              - 手把一組(2個)<br>
+              - 手板一組(4個)<br>
+              - 藍色阻力管帶一組(2個)<br>
+              - 帶手柄紫管帶一組(2個)<br>
+
+              💡 溫馨提醒<br>
+              ▸台灣 (本島) 免運費<br>
+              ▸ 其他地區恕不寄送<br>
+              ▸如需統編請於備註欄填寫</p><br>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <h2 id="top">風險與挑戰</h1>
+  ◆ 團隊以準時完成生產、出貨為目標，預定於2024年12月完成所有贊助方案的生產及出貨。但募資計畫有諸多變數，生產過程中仍有發生意外導致出貨延遲的可能（如：天災、原物料短缺、製程調整、工廠或物流延宕等因素）。
+  ◆贊助此計畫，即視同您願意承擔此風險（不一定會發生），若無法接受延遲出貨風險，請於募資計畫結束前將您的「贊助編號」提供給「聯絡提案人」發送站內訊息或E-mail取消贊助。
+<h3 id="second">退換貨規則</h2>
+◆如非個人使用不當所出現的商品瑕疵或缺漏，可申請退換貨，其餘商品含各式配件及包裝須為全新狀態，如有缺件、刮傷、髒污、破損等，概不受理。
+◆欲退換貨者，請Email至cc@hookuniverse.com.tw 註明：1.姓名 2.電話 3.E-mail 4.收件地址 5.嘖嘖贊助編號 6.退換貨原因（如有瑕疵請附相關照片）7.退款帳戶存摺影本，並將商品連同所有包裝及內容物完整保留，我們將儘速為您處理。溫馨提醒：退貨需酌收運送工本費。
+<h4 id="third">客服聯絡方式</h3>
+◆ 可點選「聯絡提案人」發送站內訊息或E-mail至 cc@hookuniverse.com.tw ，並留下：1.姓名／2.電話／3.E-mail／4.收件地址／5.買多多贊助編號，我們將儘速與您聯繫，感恩的心！
+
+  <div class="footer2 text-center">
+    <h5>贊助專案</h5>
+    <select name="form" id="form">贊助方案
+      <option>單人五折</option>
+      <option>單人六五折</option>
+      <option>雙人五折</option>
+    </select>
+    <form action="#" method="POST">
+      <p>收件人姓名</p>
+      <input type="text" name="name" placeholder="請輸入姓名">
+      
+      <p>連絡電話</p>
+      <input type="tel" name="phone" placeholder="請輸入連絡電話">
+      
+      <p>聯絡信箱</p>
+      <input type="email" name="email" placeholder="請輸入e-mail">
+      
+      <p>付款方式</p>
+      <select name="payment" id="payment">
+        <option value="credit">信用卡付款</option>
+        <option value="linepay">Line Pay</option>
+        <option value="cash">貨到付款</option>
+      </select><br>
+      
+      <button type="submit" class="btn btn-outline-secondary">贊助專案</button>
+    </form>
+  </div>
+  <div class="footer d-flex justify-content-between">
+    <ul class="d-flex">關於
+      <li><a href="關於買多多.html">關於我們</a></li>
+      <li><a href="買多多隱私權政策.html">隱私權政策</a></li>
+    </ul>
+      <ul class="d-flex ">幫助
+        <li><a href="買多多-使用條款.html">使用條款</a></li>
+        <li><a href="買多多常見問題.html">常見問題</a></li>
+        <li><a href="提案者合約.html">提案者合約</a></li>
+      </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="募資.js"></script>
+</body>
+</html>
